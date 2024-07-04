@@ -447,6 +447,7 @@ Preloader Area CSS
 }
 .btn:hover{
 	color:#fff;
+	border: 1px solid white;
 }
 .btn:before{
 	content: "";

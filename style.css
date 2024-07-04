@@ -124,7 +124,7 @@ body {
 .get-pro:hover {
 }
 #scrollUp {
-  bottom: 15px;
+  bottom: 90px;
   right: 15px;
   padding: 10px 20px;
   background: #edb311 ;
@@ -624,8 +624,8 @@ body {
 ===========================*/
 .whatsapp {
   position: fixed;
-  bottom: 100px;
-  right: 13px;
+  bottom: 10px;
+  right: 15px;
   z-index: 999;
 }
 .whatsapp i {
@@ -635,6 +635,7 @@ body {
   padding: 8px;
   border-radius: 50%;
   box-shadow: 6px 3px 4px black;
+  animation: w 5s linear infinite;
 }
 .whatsapp:hover i {
   color: white;
@@ -3416,7 +3417,7 @@ body {
   top: 5px;
   width: 15px;
   height: 15px;
-  border: 1px solid #1a76d1;
+  border: 1px solid #edb311;
   border-radius: 100%;
 }
 .contact-us .contact-us-form .checkbox label::after {
@@ -3434,7 +3435,7 @@ body {
   transition: all 0.4s ease;
   display: block;
   font-size: 9px;
-  background: #1a76d1;
+  /* background: #1a76d1; */
   border-radius: 100%;
 }
 .contact-us .contact-us-form .checkbox label.checked::after {
@@ -3446,7 +3447,7 @@ body {
   margin-top: 50px;
 }
 .contact-us .single-info {
-  background: #1a76d1;
+  /* background: #1a76d1; */
   padding: 40px 60px;
   height: 150px;
   border-radius: 10px;
@@ -3467,7 +3468,7 @@ body {
   margin: 0 auto;
   width: 80%;
   height: 90%;
-  background: #1a76d1;
+  /* background: #1a76d1; */
   opacity: 0;
   filter: blur(10px);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3731,7 +3732,7 @@ body {
 .doctor-calendar-table table tbody tr td span.time {
   display: inline-block;
   background-color: #dff5e8;
-  color: #1a76d1;
+  color: #b60e1b;
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -3742,8 +3743,8 @@ body {
   font-size: 16px;
 }
 .doctor-calendar-table table tbody tr td:hover {
-  background-color: #1a76d1;
-  border-color: #1a76d1;
+  background-color: #edb311;
+  border-color: #edb311;
 }
 .doctor-calendar-table table tbody tr td:hover h3 {
   color: #ffffff;
@@ -3753,7 +3754,7 @@ body {
 }
 .doctor-calendar-table table tbody tr td:hover span.time {
   background-color: #ffffff;
-  color: #1a76d1;
+  color: #b60e1b;
 }
 .doctor-calendar-table table tbody tr:last-child td {
   border-bottom: none;
@@ -3789,7 +3790,7 @@ body {
 .about-content span {
   display: block;
   margin-bottom: 5px;
-  color: #1a76d1;
+  color:#edb311;
   font-size: 17px;
 }
 .about-content h2 {
@@ -3820,7 +3821,7 @@ body {
   text-align: center;
   border-radius: 100%;
   background-color: #1a76d12b;
-  color: #1a76d1;
+  color: #b60e1b;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   display: inline-block;
@@ -3830,8 +3831,8 @@ body {
   top: -2px;
 }
 .about-content ul li:hover i {
-  background-color: #1a76d1;
-  color: #ffffff;
+  background-color: white;
+  color: #b60e1b;
 }
 .about-content ul li:last-child {
   margin-bottom: 0;
@@ -4064,6 +4065,7 @@ body {
 .footer .single-footer .social li:last-child {
   margin-right: 0px;
 }
+
 .footer .single-footer .social li a {
   height: 34px;
   width: 34px;
@@ -4074,14 +4076,15 @@ body {
   padding: 0;
   border-radius: 100%;
   display: block;
-  color: #fff;
+  color: #b60e1b;
   font-size: 16px;
 }
 .footer .single-footer .social li a:hover {
-  color: #1a76d1;
+  color: #b60e1b;
   background: #fff;
   border-color: transparent;
 }
+
 .footer .single-footer .social li a i {
 }
 .footer .single-footer.f-link li a i {
@@ -4231,8 +4234,9 @@ body {
   color: #fff;
 }
 .footer .copyright .copyright-content p a {
-  color: #fff;
+  color: yellow;
   font-weight: 400;
+ 
   text-decoration: underline;
   display: inline-block;
   margin-left: 4px;
@@ -4346,7 +4350,7 @@ body {
 .videos .container .video {
   height: 300px;
   width: 300px;
-  background-color:black;
+  background-color:white;
 }
 .video {
   position: relative;

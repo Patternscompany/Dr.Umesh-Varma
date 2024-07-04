@@ -504,6 +504,7 @@ Preloader Area CSS
 	height:100%;
 	width:100%;
 	background:rgb(109, 108, 105);
+	
 	opacity:0.8;
 }
 .overlay1:before{
@@ -518,7 +519,7 @@ Preloader Area CSS
 }
 /* Bread Crumbs */
 .breadcrumbs {
-	background-image: url('../img/bread-bg.jpg');
+	background-image: url('../img/herosection.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

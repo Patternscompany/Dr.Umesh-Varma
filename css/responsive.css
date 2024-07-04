@@ -770,6 +770,19 @@ Version:	1.1
 	font-size: 20px;
 	font-weight: 500;
 }
+
+@media only screen and (max-width: 767px) {
+    .news-single .news-title1  {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+
+.news-single .news-title1  {
+    color: #edb311;
+    font-weight: 600;
+}
 .news-single .news-title a{
 	font-size: 20px;
 	font-weight: 500;

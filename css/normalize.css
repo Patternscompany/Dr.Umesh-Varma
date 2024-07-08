@@ -444,6 +444,7 @@ Preloader Area CSS
 	border: none;
 	border-radius: 0;
 	border-radius:4px;
+	animation-iteration-count: infinite;
 }
 .btn:hover{
 	color:#fff;
@@ -466,6 +467,10 @@ Preloader Area CSS
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 	border-radius:4px;
+
+
+	
+
 }
 .btn:hover:before{
 	-webkit-transform: scaleX(1);
@@ -504,6 +509,7 @@ Preloader Area CSS
 	height:100%;
 	width:100%;
 	background:rgb(109, 108, 105);
+
 	
 	opacity:0.8;
 }

@@ -5933,7 +5933,8 @@ a.bg-primary:hover {
 }
 
 .bg-secondary {
-    background-color: #868e96!important
+    /* background-color: #868e96!important */
+    background-color: #edb311;
 }
 
 a.bg-secondary:focus,

@@ -151,6 +151,11 @@
 .owl-carousel.owl-hidden {
   opacity: 0;
 }
+.owl-carousel {
+  /* display: none; */
+  width: 100%;
+  z-index: 1;
+}
 .owl-carousel .owl-refresh .owl-item {
   display: none;
 }

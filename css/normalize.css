@@ -181,6 +181,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 p {
+	/* color: rgb(69, 69, 69); */
+	
+	
+   
 	color:#757575;
 	margin: 0;
 	line-height:24px;
@@ -524,6 +528,60 @@ Preloader Area CSS
 	opacity:0.8;
 }
 /* Bread Crumbs */
+
+.breadcrumbs-s{
+	background-image: url('../img/slider-02.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 120px 0px;
+}
+.breadcrumbs-s .bread-inner{
+	z-index:22;
+	text-align:center;
+}
+.breadcrumbs-s h2{
+	color: #fff;
+	text-transform:capitalize;
+	font-size: 38px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumbs-s .bread-list {
+	display: inline-block;
+	margin-top: 20px;
+}
+.breadcrumbs-s ul li{
+	display: inline-block;
+	position: relative;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.breadcrumbs-s ul li i {
+	margin: 0px 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color:#fff;
+}
+.breadcrumbs-s ul li a {
+	color: #8c3b51;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin:0;
+	padding:0;
+}
+.breadcrumbs-s ul li a:hover{
+	color:#edb311;
+}
+.breadcrumbs-s ul li.active a {
+	color: #fff;
+	display: inline-block;
+}
 .breadcrumbs {
 	background-image: url('../img/herosection.jpg');
 	background-size: cover;
@@ -563,7 +621,7 @@ Preloader Area CSS
 	color:#fff;
 }
 .breadcrumbs ul li a {
-	color: #fff;
+	color: #8c3b51;
 	font-size: 15px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -571,7 +629,7 @@ Preloader Area CSS
 	padding:0;
 }
 .breadcrumbs ul li a:hover{
-	color:#2C2D3F;
+	color:#edb311;
 }
 .breadcrumbs ul li.active a {
 	color: #fff;

@@ -276,13 +276,15 @@ body {
   text-align: center;
   padding: 0;
   border-radius: 100%;
+  animation: wh 2s linear infinite;
+  box-shadow: 2px 3px 4px white;
   display: block;
   color: white;
   font-size: 16px;
   background-color: #b60e1b;
 }
 .header .top-link li s {
-  background-color: yellow !important;
+  background-color: #edb311!important;
 }
 .header .top-link li:hover a {
   color: black;
@@ -369,7 +371,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
-  padding: 25px 12px;
+  padding: 24px 4px;
   position: relative;
   display: inline-block;
   position: relative;
@@ -634,8 +636,8 @@ body {
   background-color: #b60e1b;
   padding: 8px;
   border-radius: 50%;
-  box-shadow: 6px 3px 4px black;
-  animation: w 5s linear infinite;
+  box-shadow: 2px 3px 4px black;
+  animation: wh 2s linear infinite;
 }
 .whatsapp:hover i {
   color: white;
@@ -2344,11 +2346,20 @@ body {
 }
 .news-single .single-main {
   margin-top: 30px;
-  background: #fff;
+  background: white;
   padding: 30px;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.news-single .single-main1 {
+  
+  background: white;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 .news-single .news-head {
@@ -4071,17 +4082,19 @@ body {
   width: 34px;
   line-height: 34px;
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid #d5aeb1;
+  box-shadow: 2px 3px 4px black;
   text-align: center;
   padding: 0;
   border-radius: 100%;
   display: block;
-  color: #b60e1b;
+  color: white;
   font-size: 16px;
+  background: #b60e1b;
 }
 .footer .single-footer .social li a:hover {
-  color: #b60e1b;
-  background: #fff;
+  color: white;
+  background: #b60e1b;
   border-color: transparent;
 }
 
@@ -4241,6 +4254,16 @@ body {
   display: inline-block;
   margin-left: 4px;
 }
+/* .quick1 {
+  float: left;
+  list-style: none;
+  width: 43%;
+} */
+/* .quick1 {
+  float: right;
+  list-style: none;
+  width: 46%;
+} */
 /*=========================
 	End Footer CSS
 ===========================*/
@@ -4282,6 +4305,9 @@ body {
 .bronchoscopy-box {
   width: 100%;
   margin-bottom: 60px;
+  border:1px solid #8c3b51;
+  box-shadow: 2px 3px 4px black;
+  padding:  8px;
 }
 .bronchoscopy-box a {
   text-decoration: none;
@@ -4324,8 +4350,7 @@ body {
   vertical-align: text-top !important;
 }
 .tag-link {
-  color: 
-  #b60e1b;
+  color: #b60e1b!important;
 }
 .nav .dropdown a .fa {
   margin-right: 5px;
@@ -4403,82 +4428,6 @@ body {
 .text-dark {
   color: #031b4e !important;
 }
-.fa-award::before {
-  content: "\ec33";
-}
-
-.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
-  display: inline-block;
-  font-family: bootstrap-icons !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  vertical-align: -.125em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@media (min-width: 1200px) {
-  .display-6 {
-      font-size: 2.5rem;
-  }
-}
-
-.display-6 {
-  font-size: calc(1.375rem + 1.5vw);
-  font-weight: 700;
-  line-height: 1.2;
-}
-.fst-italic {
-  font-style: italic !important;
-}
-
-.mb-4 {
-  margin-bottom: 1.5rem !important;
-}
-@media (min-width: 576px) {
-.g-sm-5, .gy-sm-5 {
-  --bs-gutter-y: 3rem;
-}
-}
-
-@media (min-width: 576px) {
-.g-sm-5, .gx-sm-5 {
-  --bs-gutter-x: 3rem;
-}
-}
-.about-fact {
-  width: 250px;
-  height: 250px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
-}
-
-.btn-square, .btn-sm-square, .btn-lg-square {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  font-weight: normal;
-
-}
-.s{
-  width:80px;
-  height: 80px;
-  padding: 10px;
-  border-radius: 50%;
-}
-.g-4, .gy-4 {
-  --bs-gutter-y: 1.5rem;
-}
-
-@media (min-width: 576px) {
-  .ms-sm-auto {
-      margin-left: auto !important;
-  }
-}
-
 
 
 .bg-primary {
@@ -4516,17 +4465,151 @@ body {
 .flex-column {
   flex-direction: column !important;
 }
-@media (min-width: 576px) {
-  .me-sm-auto {
-      margin-right: auto !important;
-  }
+
+
+.testimonial-carousel {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
-@media (min-width: 576px) {
-  .about-fact.mt-n130 {
-      margin-top: -80px;
-  }}
-  @media (min-width: 576px) {
-    .mx-sm-auto {
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }}
+
+.testimonial {
+  display: none;
+}
+
+.testimonial.active {
+  display: block;
+}
+
+.testimonial p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.testimonial h3 {
+  font-size: 1em;
+  color: #555;
+  margin-top: 10px;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button.prev {
+  left: -30px;
+}
+
+button.next {
+  right: -30px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: linear-gradient(rgba(93, 127, 199, 0.3), rgba(3, 27, 78, .3)), url(../img/testibg.avif)  center no-repeat;
+    background-size: cover;
+
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 30px 0px;
+  text-align: center;
+
+  
+  /* position: relative; */
+  
+}
+.slideshow-container .h3{
+  color:#8c3b51 !important;
+  font-weight: 800!important;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #b60e1b!important;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #edb311;
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background:#092f54;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #b60e1b;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot .active{
+  background-color: #edb311;
+}
+.mySlides .q{
+  padding: 0px 30px;
+}
+
+
+
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.img-fluid {
+
+  max-width: 100%;
+  height: auto;
+}

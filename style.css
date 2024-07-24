@@ -333,12 +333,14 @@ body {
   margin-right: 8px;
 }
 .header .header-inner {
-  background: #edb311 ;
+  /* background: #edb311 ; */
+  background: #162e54;
   z-index: 999;
   width: 100%;
 }
 .get-quote {
-  margin-top: 12px;
+  /* margin-top: 12px; */
+  margin-top: 16px;
 }
 .get-quote .btn {
   color: #fff;
@@ -348,7 +350,7 @@ body {
   /* margin-top: 18px; */
 }
 .header .logo img {
-  width: 200px;
+  width: 250px;
 }
 .header .navbar {
   background: none;
@@ -367,7 +369,8 @@ body {
   margin: 0;
 }
 .header .nav li a {
-  color: #2c2d3f;
+  /* color: #2c2d3f; */
+  color: white;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
@@ -2783,7 +2786,7 @@ body {
   padding: 15px 30px;
 }
 .news-single .form-group .button:hover {
-  background: #353535;
+  /* background: #353535; */
 }
 .news-single .form-group .button i {
   position: relative;

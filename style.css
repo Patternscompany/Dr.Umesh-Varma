@@ -4555,7 +4555,7 @@ button:hover {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  background: linear-gradient(rgba(93, 127, 199, 0.3), rgba(3, 27, 78, .3)), url(../img/testibg.avif)  center no-repeat;
+  background:  url(../img/testibg.avif)  center no-repeat;
     background-size: cover;
 
 }

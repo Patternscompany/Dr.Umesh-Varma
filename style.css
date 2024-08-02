@@ -470,14 +470,76 @@ body {
 .header .single-widget.btn {
   margin-left: 0;
 }
+/* Dropdown1 Menu */
+.header .nav li .dropdown1 {
+  background: #fff;
+  width: 240px;
+  position: absolute;
+  left: -45px;
+  top: 100%;
+  z-index: 999;
+  margin-top: 1px;
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 5px #3333334d;
+  transform-origin: 0 0 0;
+  transform: scaleY(0.2);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+  top: 75px;
+  border: 1px solid yellow;
+
+ 
+}
+
+.header .nav li:hover .dropdown1 {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+.header .nav li .dropdown1 li {
+  float: none;
+  margin: 0;
+  border-bottom: 1px dashed #e7d2d2;
+}
+.header .nav li .dropdown1 li:last-child {
+  border: none;
+}
+.header .nav li .dropdown1 li a {
+  padding: 8px 10px;
+  color: #2c2d3f;
+  display: block;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.header .nav li .dropdown1 li a:before {
+  display: none;
+}
+.header .nav li .dropdown1 li:last-child a {
+  border-bottom: 0px;
+}
+.header .nav li .dropdown1 li:hover a {
+  color: #b60e1b;
+}
+.header .nav li .dropdown1 li a:hover {
+  border-color: transparent;
+}
 /* Dropdown Menu */
 .header .nav li .dropdown {
   background: #fff;
-  width: 220px;
+  width: 700px;
   position: absolute;
-  left: -20px;
+  left: -200px;
   top: 100%;
   z-index: 999;
+  margin-top: 1px;
   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 3px 5px #3333334d;
@@ -490,7 +552,13 @@ body {
   visibility: hidden;
   top: 74px;
   border: 1px solid yellow;
+
+ 
 }
+.header .nav li .dropdown .yamm-content {
+  padding: 15px 25px;
+}
+
 .header .nav li:hover .dropdown {
   opacity: 1;
   visibility: visible;
@@ -522,7 +590,7 @@ body {
   border-bottom: 0px;
 }
 .header .nav li .dropdown li:hover a {
-  color: #b60e1b;
+  color: #edb311;
 }
 .header .nav li .dropdown li a:hover {
   border-color: transparent;

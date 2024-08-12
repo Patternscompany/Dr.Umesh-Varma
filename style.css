@@ -4728,12 +4728,12 @@ button:hover {
   background-color: white;
 }
 
-.about-single :hover {
+/* .about-single :hover {
   box-shadow: 10px 10px 20px #dab05f, -10px -10px 20px #dab05f;
   transform: translate(-5px, -5px);
   transition: 1s ease;
   border-radius: 20px;
-}
+} */
 
 .why-choose .about-icon img {
   width: 100%;

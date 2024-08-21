@@ -4611,7 +4611,7 @@ button:hover {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  background: url(../img/testibg.avif) center no-repeat;
+  background: url(img/testimonial-bg.avif) center no-repeat;
   background-size: cover;
 }
 

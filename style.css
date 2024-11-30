@@ -1771,6 +1771,7 @@ body {
   overflow: hidden;
   margin: 15px 0;
   padding: 45px 35px 30px 35px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), -3px -3px 6px rgba(0, 0, 0, 0.5);
 }
 /* Table Head */
 .pricing-table .single-table .table-head {
@@ -4186,11 +4187,11 @@ body {
   display: block;
   color: white;
   font-size: 16px;
-  background: #b60e1b;
+  background: #edb311;
 }
 .footer .single-footer .social li a:hover {
   color: white;
-  background: #b60e1b;
+  background: #0095eb;
   border-color: transparent;
 }
 
@@ -4217,7 +4218,7 @@ body {
 }
 .footer .single-footer.f-link li a:hover {
   padding-left: 8px;
-  color: #b60e1b;
+  color: #edb311;
 }
 .footer .single-footer h2 {
   color: whitesmoke;

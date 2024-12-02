@@ -60,6 +60,10 @@ audio:not([controls]) {
 template {
   display: none;
 }
+.p {
+  margin: 0 0 15px;
+}
+
 a {
   text-decoration: none;
 }
@@ -595,7 +599,7 @@ Preloader Area CSS
   color: #fff;
 }
 .breadcrumbs-s ul li a {
-  color:white ;
+  color: white;
   font-size: 15px;
   font-weight: 500;
   text-transform: capitalize;
@@ -622,7 +626,7 @@ Preloader Area CSS
   text-align: center;
 }
 .breadcrumbs h2 {
-  color:white;
+  color: white;
   text-transform: capitalize;
   font-size: 38px;
   font-weight: 700;

@@ -49,10 +49,11 @@ Version:	1.1
 	Global CSS 
 ===============================*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Muli", Tahoma, Geneva, sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  color: #888;
+  font-size: 15px;
+  line-height: 25px;
+  color: #0f1012;
 }
 .pro-features {
   position: fixed;
@@ -251,7 +252,7 @@ body {
 }
 /* Topbar */
 .header .topbar {
-  background-color: #0095eb;
+  background-color: #1f2437;
   border-bottom: 1px solid #eee;
 }
 .header .topbar {
@@ -368,15 +369,14 @@ body {
   margin: 0;
 }
 .header .nav li a {
-  /* color: #2c2d3f; */
-  color: black;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  /* text-transform: uppercase; */
   font-size: 14px;
-  font-weight: 500;
-  text-transform: capitalize;
+  /* padding: 0px 16px 0px 16px; */
   padding: 32px 4px;
-  position: relative;
-  display: inline-block;
-  position: relative;
+  letter-spacing: 0.3px;
+  color: #1d2143;
 }
 .header .nav li a::before {
   position: absolute;
@@ -402,6 +402,12 @@ body {
 .header .nav li.active a {
   /* color: white; */
   color: #0095eb;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  letter-spacing: 0.3px;
 }
 .header .nav li:hover a:before {
   opacity: 1;
@@ -4883,6 +4889,6 @@ know_abt h3 {
         transform: scale(1);
     }
 } */
-. strong {
-  font-weight: 800;
+strong {
+  font-weight: 700;
 }

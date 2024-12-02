@@ -4883,3 +4883,6 @@ know_abt h3 {
         transform: scale(1);
     }
 } */
+. strong {
+  font-weight: 800;
+}

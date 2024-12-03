@@ -49,9 +49,9 @@ Version:	1.1
 	Global CSS 
 ===============================*/
 body {
-  font-family: "Muli", Tahoma, Geneva, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 25px;
   color: #0f1012;
 }
@@ -369,14 +369,15 @@ body {
   margin: 0;
 }
 .header .nav li a {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  /* text-transform: uppercase; */
-  font-size: 14px;
-  /* padding: 0px 16px 0px 16px; */
-  padding: 32px 4px;
-  letter-spacing: 0.3px;
-  color: #1d2143;
+      color: #2c2d3f;
+      /* color: white; */
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: capitalize;
+      padding: 24px 4px;
+      /* position: relative; */
+      display: inline-block;
+      position: relative;
 }
 .header .nav li a::before {
   position: absolute;
@@ -1130,7 +1131,7 @@ body {
 .why-choose .choose-left .list {
 }
 .why-choose .choose-left .list li {
-  color: #868686;
+  color: #0f1012;
   margin-bottom: 12px;
 }
 .why-choose .choose-left .list li:last-child {
@@ -2357,7 +2358,8 @@ body {
   font-size: 14px;
 }
 .main-sidebar .categor-list li a:hover {
-  color: white;
+  color: #1a76d1
+  ;
   padding-left: 7px;
 }
 .main-sidebar .categor-list li a i {

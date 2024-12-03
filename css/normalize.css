@@ -193,10 +193,10 @@ h6 {
 p {
   /* color: rgb(69, 69, 69); */
 
-  color: #757575;
+  color: #0f1012;
 
   margin: 0;
-  line-height: 24px;
+  line-height: 25px;
   font-weight: 400;
 }
 a,
@@ -530,7 +530,7 @@ Preloader Area CSS
 }
 .section-title p {
   font-size: 15px;
-  color: #888;
+  color: #0f1012;
   margin-top: 15px;
 }
 /* Overlay */

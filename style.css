@@ -1799,7 +1799,9 @@ body {
   margin-top: 5px;
   margin-bottom: 15px;
 }
-
+.pricing-table .single-table li a:hover{
+  color: inherit !important;
+}
 .pricing-table .single-table .amount span {
   display: inline-block;
   font-size: 14px;

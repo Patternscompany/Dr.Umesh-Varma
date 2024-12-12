@@ -144,14 +144,14 @@ Version:	1.1
 	position:relative;
 }
 .slider .single-slider:before{
-	position:absolute;
+	/* position:absolute;
 	content:"";
 	left:0;
 	top:0;
 	height:100%;
 	width:100%;
 	background:#fff;
-	opacity:0.5;
+	opacity:0.5; */
 }
 .slider .single-slider h1 {
 	font-size: 28px;
@@ -608,14 +608,14 @@ Version:	1.1
 	position:relative;
 }
 .slider .single-slider:before{
-	position:absolute;
+	/* position:absolute;
 	content:"";
 	left:0;
 	top:0;
 	height:100%;
 	width:100%;
 	background:#fff;
-	opacity:0.5;
+	opacity:0.5; */
 }
 .slider .single-slider h1 {
 	font-size: 28px;
@@ -1110,14 +1110,14 @@ Version:	1.1
 	position:relative;
 }
 .slider .single-slider:before{
-	position:absolute;
+	/* position:absolute;
 	content:"";
 	left:0;
 	top:0;
 	height:100%;
 	width:100%;
 	background:#fff;
-	opacity:0.5;
+	opacity:0.5; */
 }
 .slider .single-slider h1 {
 	font-size: 20px;

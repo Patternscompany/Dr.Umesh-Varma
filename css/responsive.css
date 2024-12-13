@@ -465,7 +465,7 @@ Version:	1.1
 	border-bottom: 1px solid lightslategray;
 }
 .slicknav_nav li .dropdown li a:hover{
-	color:#edb311;
+	color:#0095eb;
 }
 .slicknav_nav li .dropdown1 li a{
 	color:#2C2D3F;
@@ -1097,7 +1097,7 @@ Version:	1.1
 	margin: 0;
 	padding: 0;
 	height: auto;
-	padding: 50px 0;
+	padding: 20px 0;
 	border-bottom:1px solid #eee;
 }
 .schedule .schedule-inner {

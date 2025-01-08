@@ -54,6 +54,7 @@ body {
   font-size: 14px;
   line-height: 25px;
   color: #0f1012;
+  overflow-x: hidden;
 }
 .pro-features {
   position: fixed;

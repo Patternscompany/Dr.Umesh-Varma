@@ -124,7 +124,7 @@ Version:	1.1
 	padding-top: 15px;
 }
 .slider .single-slider {
-	height: 380px;
+	/* height: 380px; */
 }
 .schedule {
 	background: #fff;
@@ -1090,7 +1090,7 @@ Version:	1.1
 	text-align: center;
 }
 .slider .single-slider {
-	height: 380px;
+	/* height: 380px; */
 }
 .schedule {
 	background: #fff;

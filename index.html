@@ -609,22 +609,23 @@ src="https://www.facebook.com/tr?id=502076312839099&ev=PageView&noscript=1"
     <!-- End Single Slider -->
 <style>
   .first-lsider{
-    background-image: url('./img/carousal-images/endo-2.png');
+    background-image: url('./img/carousal-images/6.jpg');
+  
   }
   .second-slider{
-    background-image: url('./img/carousal-images/bronchoscopi.png') ;
+    background-image: url('./img/carousal-images/1.jpg') ;
   }
   .third-slider{
-    background-image: url('./img/carousal-images/thoracoscopy.png');
+    background-image: url('./img/carousal-images/2.jpg');
   }
   .firth-slider{
-    background-image: url('./img/carousal-images/airway-stent.png');
+    background-image: url('./img/carousal-images/3.jpg');
   }
   .fifth-slider{
-    background-image: url('./img/carousal-images/sleep-madicine.png');
+    background-image: url('./img/carousal-images/4.jpg');
   }
   .sixth-slider{
-    background-image: url('./img/carousal-images/spirometry.png');
+    background-image: url('./img/carousal-images/5.jpg');
   }
  
   .text-blue{
@@ -764,56 +765,44 @@ src="https://www.facebook.com/tr?id=502076312839099&ev=PageView&noscript=1"
     </style>
 
     <!-- Start Fun-facts -->
-    <div id="fun-facts" class="fun-facts section overlay">
+    <!-- <div id="fun-facts" class="fun-facts section overlay">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-12">
-            <!-- Start Single Fun -->
+          <div class="col-lg-4 col-md-6 col-12">
+           
             <div class="single-fun">
-              <i class="icofont icofont-table"></i>
+              
               <div class="content">
-                <span class="counter">15</span>
-                <p>Years of Experience</p>
+                <h2 style="color: #1a76d1;
+    font-weight: bold;">BOOK YOUR APPOINTMENT</h2>
+                  
+                  
+                   
+                <p>It's easy and fast. Start now!</p>
               </div>
             </div>
-            <!-- End Single Fun -->
+           
           </div>
-          <div class="col-lg-3 col-md-6 col-12">
-            <!-- Start Single Fun -->
+          <div class="col-lg-4 col-md-6 col-12">
+           
             <div class="single-fun">
-              <i class="icofont icofont-stethoscope"></i>
-              <div class="content">
-                <span class="counter">25</span>
-                <p>Professional Staff</p>
+              
+              <div class="button">
+                <a href="appointment.html" class="btn">Get directions</a>
+               
               </div>
             </div>
-            <!-- End Single Fun -->
+          
           </div>
-          <div class="col-lg-3 col-md-6 col-12">
-            <!-- Start Single Fun -->
-            <div class="single-fun">
-              <i class="icofont icofont-user-alt-3"></i>
-              <div class="content">
-                <span class="counter">10</span>
-                <p>Specialist Doctors</p>
-              </div>
-            </div>
-            <!-- End Single Fun -->
+          <div class="col-lg-4 col-md-6 col-12">
+            
+           <img  src="img/dr-1.png">
+            
           </div>
-          <div class="col-lg-3 col-md-6 col-12">
-            <!-- Start Single Fun -->
-            <div class="single-fun">
-              <i class="icofont-simple-smile"></i>
-              <div class="content">
-                <span class="counter">4379</span>
-                <p>Happy Patients</p>
-              </div>
-            </div>
-            <!-- End Single Fun -->
-          </div>
+         
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ End Fun-facts -->
     <!--specialities start-->
 
@@ -997,22 +986,23 @@ equipments are important needed things in a ICU.
         display: flex;
         flex-wrap: wrap; /* Ensure wrapping on smaller screens */
 
-        /* gap: 5px; Add space between buttons for better readability 
-        padding: 0 20px;*/
+        gap: 5px; Add space between buttons for better readability 
+        padding: 0 20px;
         margin-bottom: 10px;
       }
 
       .tab-button {
         flex: 1;
-        padding: 10px;
+        padding: 5px;
         background: white;
-        box-shadow: inset 3px 5px 5px rgba(0, 0, 0, 0.5);
+        /* box-shadow: inset 3px 3px 2px rgba(0, 0, 0, 0.5); */
         outline: none;
         cursor: pointer;
         text-align: center;
         font-size: 14px;
         transition: background 0.3s ease;
         color: black;
+        /* margin-left: 4px; */
       }
       .tab-button:hover {
         background: #007bff !important;
@@ -1033,8 +1023,8 @@ equipments are important needed things in a ICU.
       .tab-content {
         display: none;
         padding: 20px;
-        /* border: 1px solid #ddd; */
-        box-shadow: 6px 26px 15px -13px rgba(0, 0, 0, 0.25);
+        border: 1px solid #ddd;
+        /* box-shadow: 6px 26px 15px -13px rgba(0, 0, 0, 0.25); */
         margin-top: -1px;
         background: #fff;
       }
@@ -1055,7 +1045,9 @@ equipments are important needed things in a ICU.
           flex-direction: column;
         }                                                                                                      
         .tabs {
-          flex-direction: column; /* Stack buttons vertically */
+          align-items: center;
+          flex-direction: column; 
+          /* Stack buttons vertically */
         }
 
         .tab-button {
@@ -1070,7 +1062,10 @@ equipments are important needed things in a ICU.
       @media (max-width: 480px) {
         .tab-button {
           font-size: 12px;
-          padding: 6px;
+          padding: 10px;
+          width: fit-content;
+          margin: 5px;
+
         }
 
         .tab-content {       

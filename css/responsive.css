@@ -125,6 +125,8 @@ Version:	1.1
 }
 .slider .single-slider {
 	/* height: 380px; */
+	/* height: 100%;
+	max-width: 100%; */
 }
 .schedule {
 	background: #fff;
@@ -142,6 +144,7 @@ Version:	1.1
 }
 .slider .single-slider{
 	position:relative;
+
 }
 .slider .single-slider:before{
 	/* position:absolute;
@@ -1335,4 +1338,5 @@ Version:	1.1
 		padding:20px 0px 15px;
 		
 	}
+}
 }

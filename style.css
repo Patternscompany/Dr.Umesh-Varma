@@ -730,16 +730,16 @@ body {
 =============================*/
 .slider .single-slider {
   height: 100vh;
-  width: 100%;
-  background-size: cover;
+  /* width: 100%; */
+  /* background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 @media (max-width: 992px) {
   .slider .single-slider {
-    height: auto;
+    /* height: auto;
     max-width: 100%;
-    background-size: contain;
+    background-size: cover; */
   }
 }
 .slider .single-slider .text {
@@ -810,7 +810,7 @@ body {
   width: 50px;
   line-height: 50px;
   text-align: center;
-  background: ;
+  /* background: ; */
   color: #fff;
   font-size: 32px;
   position: absolute;
@@ -4676,7 +4676,7 @@ button:hover {
   width: auto;
   margin-top: -30px;
   padding: 16px;
-  color: !important;
+  /* color: !important; */
   font-weight: bold;
   font-size: 30px;
   border-radius: 0 3px 3px 0;

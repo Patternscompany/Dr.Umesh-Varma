@@ -2202,7 +2202,8 @@ body {
 .blog .single-news img {
   width: 100%;
   margin: 0;
-  height: 200px;
+  /* height: 200px; */
+  height: auto;
   padding: 0;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
